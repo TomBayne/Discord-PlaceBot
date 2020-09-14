@@ -70,7 +70,7 @@ async def on_message(message):
         embed.add_field(name="How to Play", value="Use the command \n **'!place [X Coord] [Y Coord] [color]'** \n to "
                                                   "place a pixel.", inline=False)
         embed.add_field(name="Available Colors", value=colorString)
-        embed.add_field(name="Add to your server.", value="https://bit.ly/2FlkqSj", inline=False)
+        embed.add_field(name="Add to your server.", value="https://bit.ly/3k1mgaj", inline=False)
 
         await message.channel.send(file=file, embed=embed, delete_after=300)
 
